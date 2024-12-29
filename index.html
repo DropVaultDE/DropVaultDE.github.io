@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <style type="text/tailwindcss">
-    .btn { @apply bg-transparent flex text-green-50 font-bold py-2 px-4 border border-green-50 rounded; }
+    body { @apply bg-green-800 p-4 text-center text-green-50 font-mono; }
+    .card { @apply bg-green-900 p-4 mb-6 rounded-lg shadow; } 
+    h3, h4, h5 { @apply text-lg font-bold; }
+    hr { @apply w-20 my-2 mx-auto; }
+    .btn { @apply bg-transparent flex text-green-50 font-bold py-2 px-4 border border-green-50 text-center rounded; }
   </style>
 </head>
-<body class="bg-green-800 p-4 text-center text-green-50 font-mono">
+<body>
   <h1 class="text-3xl font-bold">
     DropVault
   </h1>
@@ -16,27 +20,27 @@
     Launch Limited Products 🚀
   </h2>
   
-  <div class="bg-green-900 p-4 mb-6 rounded-lg shadow">
-    <h3 class="text-lg font-bold">DrpV:Vision ✨</h3>
-    <hr class="w-20 my-2 mx-auto">
+  <div class="card">
+    <h3>DrpV:Vision ✨</h3>
+    <hr>
     <p>
       Our vision is to seamlessly integrate a robust raffle system into Shopware 6, empowering you to manage your limited-edition releases with confidence and ease.
     </p>
   </div>
 
-    <div class="bg-green-900 p-4 mb-6 rounded-lg shadow">
-    <h3 class="text-lg font-bold">DrpV:WiP 👷🏼‍♂️</h3>
-    <hr class="w-20 my-2 mx-auto">
+    <div class="card">
+    <h3>DrpV:WiP 👷🏼‍♂️</h3>
+    <hr>
     <p>
       This service is currently in development and Beta is scheduled for Q2 2025 release. To pre-register for access and join in on updates sunscribe to our newsletter.<br />
-      <a class="btn" href="#" target="_blank">Enter our Vault</a>
+      <a class="btn mt-2" href="#" target="_blank">Enter our Vault</a>
     </p>
   </div>
 
 
-  <figure class="bg-green-900 p-4 mb-6 rounded-lg shadow">
-    <h3 class="text-lg font-bold">DrpV:About 👨🏼‍💻</h3>
-    <hr class="w-20 my-2 mx-auto">
+  <figure class="card">
+    <h3>DrpV:About 👨🏼‍💻</h3>
+    <hr>
      <blockquote class="mb-2 italic">
        <p>
         "As a passionate collector, I understand the excitement and challenges of limited-edition releases. Paired with my 10+ years of Shopware experience I’m thrilled to bring both worlds together."
